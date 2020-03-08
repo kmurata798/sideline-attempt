@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['localhost', 'sideline.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'hobbies.apps.HobbiesConfig',
-    # 'crispy_forms',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

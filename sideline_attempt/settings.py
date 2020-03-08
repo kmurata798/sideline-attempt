@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['localhost', 'sideline.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'hobbies.apps.HobbiesConfig',
+    'users.apps.UsersConfig',
     'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -132,5 +133,5 @@ MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_REDIRECT_URL = 'blog-home'
+LOGIN_REDIRECT_URL = 'hobbies-home'
 LOGIN_URL = 'login'

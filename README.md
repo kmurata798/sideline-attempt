@@ -1,4 +1,4 @@
-To install crispy forms ==> pipenv install django-crispy-forms
+To install crispy forms ==> pipenv install django-crispy-forms  
 To install pillow       ==> pipenv install pillow
 
 User ==> admin

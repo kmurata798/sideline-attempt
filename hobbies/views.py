@@ -56,3 +56,12 @@ def about(request):
 
 def explore(request):
     return render(request, 'hobbies/explore.html', {'title': 'Explore'})
+
+def get_sideline(request):
+    return render(request, 'hobbies/get_sideline.html', {'title': 'Get Sideline'})
+
+def pricing(request):
+    return render(request, 'hobbies/pricing.html', {'title': 'Sideline Pricing'})
+
+def locations(request):
+    return render(request, 'hobbies/locations.html', {'title': 'locations'})

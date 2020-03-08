@@ -5,11 +5,13 @@
         <form method="POST">
             {% csrf_token %}
             <fieldset class='form-group'>
-                <legend class='border-bottom mb-4'>Hobby Post</legend>
+                <legend class='border-bottom mb-4'>New Hobby Class/Group</legend>
                 {{ form|crispy }}
             </fieldset>
             <div class='form-group'>
                 <button class='btn btn-outline-info' type='submit'>Post Hobby</button>
+                <a href="{% url 'hobbies-list' %}">Cancel 
+                <!-- <input type="button" name="cancel" value="cancel" onClick="window.location='{% url 'hobbies-list' %}';" /> -->
             </div>
         </form>
     </div>
